@@ -4,6 +4,7 @@ body {
     align-items: flex-start;
     background: #ecf0f1;
     min-height: 100vh;
+    position: relative;
 }
 
 .sidebar {
@@ -107,4 +108,25 @@ body {
 .table-container th {
     background: #3498db;
     color: white;
+}
+
+.logout-form {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logout-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #e74c3c;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.logout-form button:hover {
+    background: #c0392b;
 }

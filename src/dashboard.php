@@ -4,6 +4,12 @@ if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit();
 }
+// Logout
+if (isset($_POST['logout'])) {
+    session_destroy();
+    header("Location: login.php");
+    exit();
+}
 ?>
 
 <!DOCTYPE html>
@@ -24,8 +30,12 @@ if (!isset($_SESSION['user_id'])) {
     <a href="#">Profile</a>
     <a href="#">Reports</a>
     <a href="#">Settings</a>
-    <a href="#">Logout</a>
 </div>
+
+<!-- Logout Button Top Right -->
+<form method="post" class="logout-form">
+    <button type="submit" name="logout">Logout</button>
+</form>
 
 <!-- Main Content -->
 <div class="main">
