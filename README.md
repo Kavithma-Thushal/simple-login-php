@@ -9,16 +9,12 @@ combining PHP’s simplicity with secure coding practices. Step into the world o
 management system. Join me on this coding journey, where every line of code contributes to building safer applications
 for the web.
 
----
-
 ## 🛠️ Technologies
 
 ✅ **PHP**: Core logic & authentication<br/>
 ✅ **HTML**: Forms for login & registration<br/>
 ✅ **CSS**: Optional styling for better UI<br/>
 ✅ **MySQL**: Database for storing users<br/>
-
----
 
 ## 🚀 Features
 
@@ -29,8 +25,6 @@ for the web.
 ✅ **Error Handling**: Prevent duplicate email registrations & invalid login attempts.<br/>
 ✅ **Dashboard Page**: Redirect logged-in users to a protected dashboard.<br/>
 ✅ **Logout**: End session safely with `logout.php`.<br/>
-
----
 
 ## 📝 Version
 
